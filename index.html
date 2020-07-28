@@ -40,6 +40,18 @@
                   stroke-width: 1px;
                   stroke: url(#linear-gradient);
                 }
+
+                #activity a {
+    background-color: #e90e65;
+    min-width: 138px;
+    border-radius: 40px;
+    color: #fefefe;
+    padding: 10px ;
+    margin: auto;
+  }
+              #activity a:hover,.content a:hover{
+               font-weight: bold;
+              }
               </style>
               <linearGradient id="linear-gradient" x1="140.508" y1="50.5" x2="60.492" y2="0.5" gradientUnits="userSpaceOnUse">
                 <stop offset="0" stop-color="#e90e65"/>
@@ -78,7 +90,7 @@
             <hr />
             <p>Kohli Productions is an award winning full-service creative agency that provides creatively crafted video production services that are designed to deliver brands main message and engage your target audience. This video production company has the right experience to produce videos based on customer’s requirements and needs. As a company of repute, they’re willing to travel to any location to shoot videos for their clients.As one of the top video production agencies in the region, you can trust them to provide high-quality and affordable videos services.We specialize in producing original video and animated content for websites, marketing campaigns, corporate communication, training, on-boarding, events and more.We make Corporate videos, Music Videos, Documentaries, Commercials, Fashion Films & Photography, Films & TV Shows.            </p>
             <p> We help clients identify and build the capabilities essential to their advantage.  We believe in teamwork, that the client is part of our team, his goal is our goal and that we will accomplish this jouney together. Our investment decisions are based on long-term payoff, and our fundamental beliefs are not sacrificed for short-term gain. This means we deliver more value than expected. It doesn’t mean doing whatever the client asks. You trust individuals and believe in them, they will be motivated to do what's right for the company.</p>
-            <a href="#" class="btn">CONTACT</a> </div>
+            <a href="#contact" class="btn">CONTACT</a> </div>
           </div>
         </div>
       </div>
@@ -232,6 +244,7 @@
             </div>
           </div>
         </div>
+        <a href="https://www.youtube.com/user/kohliproductions/featured" class="btn" target="_blank">Watch All The Videos</a> </div>
       </div>
     </div>
   </div>
@@ -308,15 +321,15 @@
     <br><br>
 
 
-        <div class="contact-form" id="contact" >
-          <h3 class="text-uppercase">Contact me</h3>
+        <div class="contact-form" style="width: 70vw;margin: auto; max-width: 900px;margin-bottom: 20px;"id="contact" >
+          <h3 class="text-uppercase">Contact Us</h3>
           <input type="text" class="form-control" placeholder="Your Name">
           <input type="text" class="form-control" placeholder="Your Email">
           <textarea class="form-control" placeholder="Your Message"></textarea>
           <button type="submit">Send</button>
         </div>
 
-    <div class="copy pt-4 pb-4" style="color: white; padding: 10px;">
+    <div class="copy pt-4 pb-4" style="color: white; padding: 10px;padding-bottom: 40px;">
       <section class="rowL" id="about">
         <div class="row" style="text-align: left">
 
@@ -376,9 +389,31 @@
           <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/google-plus.png" alt=""></a> </li>
         </ul>
       </div>
-     <br/>
-    </div>
+      <br>
+      <style media="screen">
+      @import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
+
+.mwl {
+font-family: 'Merienda', cursive;
+}
+.ks {
+font-family: 'Oregano', cursive;
+font-size:18px;
+}
+.ks a{
+text-transform: none !important;
+}
+      </style>
+      <p style="display: inline-block;float: left; margin-left: 50px;">copyright©2006-2020 <a href="kohli.company" target="_blank" style="color: red"> Kohli Productions</a> - Kohli Media LLP.</p>
+      <span class="mwl">#MadeWithLove</span><span class="ks">&hearts; <a href="http://www.kohli.studio/">Kohli.Studio</span></a>
+
+<br> <br>
+      </div>
+
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow24.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
